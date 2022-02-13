@@ -1,0 +1,6 @@
+habit_id,habit_name,habit_task,habit_periodicity
+1,Studying,Study a specific or new subject for at least 10 hours per week,weekly
+2,Jogging,Go jogging at least once per week,weekly
+3,Cleaning,Clean all rooms,weekly
+4,Waking up,Wake up at 5am every morning,daily
+5,Doing workout,Doing workout each day for at least 15 minutes,daily
