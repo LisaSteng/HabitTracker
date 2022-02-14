@@ -92,7 +92,7 @@ def cli():
         if is_valid_list is True:
             choice = questionary.select(
                 "What do you want to do?",
-                choices=["Check Off", "Create", "Modify", "Delete", "Analyse", "Exit"]).ask()
+                choices=["Create", "Check Off", "Modify", "Delete", "Analyse", "Exit"]).ask()
         else:
             choice = questionary.select(
                 "What do you want to do?",
@@ -255,7 +255,7 @@ def cli():
                         ""
                     print(f"Task for Habit {name} successfully modified to: {task}")
                 elif choice_sub == "Periodicity":
-                    periodicity = str(questionary.select("Please enter an updated periodicity:",
+                    periodicity = str(questionary.select("Please select an updated periodicity:",
                                                          choices=["daily", "weekly"]).ask())
                     habit = Habit(name, "null", periodicity)
                     habit.modify_habit_periodicity(db)
@@ -266,7 +266,7 @@ def cli():
                     print(f"Periodicity for Habit {name} successfully modified to {periodicity}.")
                 elif choice_sub == "Task and Periodicity":
                     task = questionary.text("Please enter an updated task specification:").ask()
-                    periodicity = str(questionary.select("Please enter an updated periodicity:",
+                    periodicity = str(questionary.select("Please select an updated periodicity:",
                                                          choices=["daily", "weekly"]).ask())
                     habit = Habit(name, task, periodicity)
                     habit.modify_habit(db)
