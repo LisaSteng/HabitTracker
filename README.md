@@ -131,7 +131,6 @@ into your console and navigate through the menu options and
 subsequent questions/choices on the screen.
 
 ## Testing the Project
-***
 
 For testing the project, enter into the console:
 ```shell
