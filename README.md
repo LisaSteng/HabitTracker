@@ -46,7 +46,7 @@ the Habit Tracker.
 
 In order to avoid the storage of duplicated habits, each habit name is only allowed to be stored once.
 
-### (2) Checking-Off a Habit
+### (2) Checking-off a Habit
 A task can be completed, i.e. *checked-off* by a user at any
 point in time. 
 
