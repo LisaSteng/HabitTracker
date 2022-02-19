@@ -50,7 +50,7 @@ Within each option, the possibility is given to return to the main menu without 
 
 questionary is imported as an intuitive CLI thereby connecting respective choices and selection options to the habits
 being available in the database which is the reason why the database file is imported to this file as well.
-In addition, the Habit class is imported from habits as well as the file "analyse" to provide the user with all the
+Additionally, the Habit class is imported from habits as well as the file "analyse" to provide the user with all the
 analysis functions.
 The imported datetime module is used for the storage as well as validation of check-off dates.
 Pandas is imported as a basis for manipulating the data and performing the respective analysis functions.
