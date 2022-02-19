@@ -11,7 +11,6 @@ one should/wants to adhere to in a regular frequency.
 This project has been created using Python 3.7.
 
 ## Table of Contents
-***
 
 1. [Scope and Functionality](#Scope-and-Functionality)
 2. [Prerequisites](#Prerequisites)
@@ -19,7 +18,6 @@ This project has been created using Python 3.7.
 4. [Testing the Project](#Testing-the-Project)
 
 ## Scope and Functionality
-***
 
 The app includes the options of
 1. creating,
@@ -111,7 +109,7 @@ but, in the current scope, streak calculations are based on
 habit creation date
 
 ## Prerequisites
-***
+
 For running the program, Python 3.7 or higher must be installed.
 
 Install all further requirements for the habit tracker app 
@@ -122,7 +120,6 @@ pip install - r requirements.txt
 ```
 
 ## Running the Program
-***
 
 Type:
 
@@ -134,7 +131,6 @@ into your console and navigate through the menu options and
 subsequent questions/choices on the screen.
 
 ## Testing the Project
-***
 
 For testing the project, enter into the console:
 ```shell
